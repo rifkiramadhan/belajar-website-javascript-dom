@@ -1,0 +1,23 @@
+---- DOM Manipulation Method ----
+
+1. Manipulasi Element
+2. Manipulasi Node
+
+
+---- Manipulasi Node ----
+
+1. document.createElement()
+    - Untuk membuat elemen
+2. document.createTextNode()
+    - Untuk menuliskan apapun didalam elemen yang telah dibuat dan ingin menyimpan dimana
+      bisa menggunakan appendChild, atau insertBefore
+3. node.appendChild()
+    - Untuk menyimpan ke akhir dari sebuah elemen parent
+4. node.insertBefore()
+    - Untuk menyimpan ke akhir dari sebuah elemen parent dan juga akan disimpan ke dalam sebelum
+      sebuah elemen yang tersedia berikutnya
+5. parentNode.removeChild()
+    - Untuk mengahapus elemen yang tersedia
+6. parentNode.replaceChild()
+    - Untuk mengganti elemen yang tersedia
+7. dll

@@ -1,0 +1,69 @@
+---- DOM Manipulation Method ----
+
+1. Manipulasi Element
+2. Manipulasi Node
+
+
+---- Manipulasi Element ----
+
+1. element.innerHTML
+    - Untuk merubah isi dari sebuah tag yang sudah di seleksi
+
+2. element.style.<property>
+    - Untuk merubah style atau css dari sebuah elemen yang sudah di seleksi
+
+3. element.setAttribute()
+   element.getAttribute()
+   element.removeAttribute()
+    - Untuk memanipulasi atribut pada sebuah elemen yang melekat pada sebuah elemen yang
+      suda di seleksi
+    - Attribute adalah sesuatu yang menempel pada elemen HTML 
+    
+4. element.classList
+    - Untuk memanipulasi class yang sudah di inisialisasi
+    - Contoh:
+        - element.classList.add()
+            - Untuk menambah class baru
+        - element.classList.remove()
+            - untuk menghilangkan class yang ada
+        - element.classList.toggle()
+            - Jika sebuah elemen tidak memiliki kelas tertentu maka akan menambahkan, jika elemen
+              tersebut sudah ada toggle akan menghilangkan class tersebut
+        - element.classList.item()
+            - Untuk mengetahui class tertentu yang ada di dalam sebuah elemen, misalkan elemen memiliki
+              tiga buah class dan class tiga nya itu apa, bisa menggunakan itam
+        - element.classList.contains()
+            - Untuk mengecek dalam sebuah elemen apakah memiliki class tertentu ?
+        - element.classList.replace() 
+            - Untuk mengganti class yang ada dengan class yang baru
+    - Cara mencoba melalui console:
+        - Sorot text paragraf ke 2, kemudian klik inspect element dan jalankan pada tab console
+        - element.classList.add()
+            - p2.classList
+            - p2.classList.add('label');
+            - p2.classList
+        - element.classList.remove()
+            - p2.classList.remove('label');
+            - p2.classList
+        - element.classList.toggle()
+            - p2.classList.toggle('label');
+                - Akan menjadi true dan false jika di ulang sebanyak dua kali
+            - document.body
+            - document.body.style.backgroundColor = 'lightblue';
+            - document.body.classList.toggle('biru-muda');
+                - Akan menjadi true dan false jika di ulang sebanyak dua kali
+        - element.classList.item()
+            - p2.classList
+            - p2.classList.add('satu');
+            - p2.classList.add('dua');
+            - p2.classList.add('tiga');
+            - p2.classList.item(2);
+        - element.classList.contains()
+            - p2.classList.contains('dua');
+                - Jika ada hasilnya true jika tidak ada hasilnya false
+            - p2.classList.contains('empat');
+                - Jika ada hasilnya true jika tidak ada hasilnya false
+        - element.classList.replace()
+            - p2.classList.replace('tiga', 'empat');
+
+5. dll

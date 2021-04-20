@@ -1,0 +1,41 @@
+---- NodeList vs HTMLCollection ----
+
+1. Keduanya merupakan kumpulan array
+2. Struktur datanya mirip array
+3. nodeList dapat berisi node apapun, sedangkan HTMLCollection harus
+   berisielemen HTML
+4. HTML Collection bersifat live sedangkan nodeList tidak
+
+
+---- Struktur Hierarki DOM ----
+
+1. Root Node:
+    - Node yang menjadi sumber dari semua node lain di dalam DOM
+    - Document
+2. Parent Node:
+    - Node yang berada 1 tingkat diatas node yang lain
+    - Body adalah parent dari h1, p, p, div dan a
+3. Child Node
+    - Node yang berada 1 tingkat dibawah node yang lain
+    - h1 adalah child dari body
+
+
+---- DOM Selection Method ----
+
+- Pengertian:
+    - Method ini digunakan untuk memilih elemen berdasarkan kriteria tertentu
+
+1. getElementById()
+    - Adalah method yang paling simple yaitu hanya memilih method yang ada didalam elemen DOM
+      berdasarkan sebuah id dalam tag elemen
+2. getElementsByTagName()
+    - Meminta javascript untuk mencari elemen-elemen yang memiliki nama tag tertentu
+3. getElementsByClassName()
+    - Meminta javascript untuk mencari elemen-elemen yang memiliki nama class tertentu
+4. querySelector()
+    - Adalah method yang cukup baru dibanding "ById dan TagName"
+    - Harus menggunakan awalan # di dalam ('');
+5. querySelectorAll()
+    - Method pada point 4 dan 5 digunakan untuk mencari elemen berdasarkan selector nya, dan selector
+      ini bisa di anggap seperti mencari sebuah elemen menggunakan css, karena juga bisa dituliskan seperti
+      selector baik yang sederhana maupun yang kompleks 
