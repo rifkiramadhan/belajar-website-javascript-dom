@@ -1,0 +1,5 @@
+---- Bermain Dengan Warna Pada JavaScript ----
+1. Ada 3 Fungsi Pembulatan:
+    - round
+    - flor
+    - ceil

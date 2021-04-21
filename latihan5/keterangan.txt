@@ -1,0 +1,36 @@
+---- Events ----
+
+1. Pengertian:
+    - Events tidak sama dengan != Event
+    - Even artinya genap / meskipun
+    - Events artinya kejadian
+    - Events pada javascript merepresentasikan sebuah kejadian yang terjadi di dalam DOM dan
+      kejadian tersebut bisa dilakukan oleh user 
+        - Ketika melakukan klik pada mouse, menekan tombol pada keyboard, mengisikan sesuatu pada elemen input,
+          menggerakan mouse, dll
+    - Atau events tersebut dilakukan secara otomatis oleh API
+        - Ketika menjalankan animasi menggunakan CSS, ketika animasi dijalankan juga bisa menangkap event nya
+          atau ketika selesai di load ke dalam memori, hal itu di lakukan secara otomatis oleh komputer atau API nya
+
+2. Cara Mendengarkan Event:
+    - Event Handler
+        - Inline HTML attribute
+            - Menambahkan attribute HTML secara inline (langsung ditanam di HTML nya)
+            - Tidak disarankan untuk mencampur adukan HTML dengan javascript di dalam file HTML
+            - Tidak disarankan untuk memodifikasi HTMl, padahal bisa menambahkan event tanpa menyentuh HTML
+        - Element method
+            - Menggunakan method untuk elemen yang akan diseleksi
+        - Contoh:
+            - on<event>
+                - Menggunakan awalan on dan event nya itu apa ...
+                - Misalnya onclick / onClick
+
+    - addEventListener()
+        - Adalah method yang lebih baru daripada on dan fungsinya sama saja
+
+    Perbedaan:
+        - Menggunakan event handler itu merupakan cara lama, walaupun apa yang bisa dilakukan olehnya sama dengan cara
+          yang dilakukan add event listener
+        - Perbedaannya adalah ketika memberikan lebih dari satu perubahan pada sebuah event
+            - Jika menggunakan event handler maka perubahan yang terakhir dilakukan akan menimpa perubahan sebelumnya 
+            - Sedangkan menggunakan add event listener akan menambah perubahannya
