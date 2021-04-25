@@ -1,0 +1,32 @@
+---- DOM Traversal (Penelusuran DOM) ----
+1. DOM Traversal:
+    - Menyeleksi sebuah elemen menggunakan DOM Selection
+    - Setelah elemen tertentu terseleksi bisa memilih elemen yang lain berdasarkan elemen
+      yang dipilih tadi / menelusuri elemen berdasarkan elemen yang diseleksi di awal
+
+2. Contoh:
+    - e.target 
+        - lebih bermanfaat karena bisa mengetahui informasi macam-macam dari
+          sebuah event nya
+
+3. DOM Traversal Method:
+    - parentNode
+        - Jika Node belum tentu
+    - parentElement
+        - Jika element pasti element HTML
+    - nextSibling
+        - Jika nextSibling harus saudara kandung dari element yang dipilih dan next adalah element setelahnya
+        - Jika menggunakan nextSibling maka yang diambil adalah Node / satu baris enter ke ambil kecuali dihapus
+    - nextElementSibling
+        - Jika nextElementSibling harus saudara kandung dari element yang dipilih dan next adalah element setelahnya
+        - Jika nextElementSibling maka akan mengabaikan satu baris enter Node yang terambil
+    - previousSibling
+        - Jika previousSibling harus saudara kandung dari element yang dipilih dan next adalah element sebelumnya
+        - Jika menggunakan previousSibling maka yang diambil adalah Node / satu baris enter ke ambil kecuali dihapus
+    - previousElementSibling
+        - Jika previousElementSibling harus saudara kandung dari element yang dipilih dan next adalah element sebelumnya
+        - Jika menggunakan previousElementSibling maka yang diambil adalah Node / satu baris enter ke ambil kecuali dihapus
+
+4. Catatan:
+    - querySelector hanya menangkap satu elemen yang pertama kali ditemui
+    - querySelectorAll bisa menangkap semua elemen yang pertama kali ditemui

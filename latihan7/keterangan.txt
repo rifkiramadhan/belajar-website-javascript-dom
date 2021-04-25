@@ -1,0 +1,7 @@
+---- Suwit Jawa DOM ----
+1. Math.random
+    - Fungsi ini untuk membangkitkan dan menghasilkan nilai dari 0 - 1
+
+2. SetInterval()
+    - Adalah fungsi untuk melakukan sesuatu secara berulang-ulang selama interval waktu tertentu
+    

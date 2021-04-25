@@ -1,5 +1,3 @@
----- SOURCE CODE LATIHAN MASIH BERLANJUT ----
-
 ---- JavaScript DOM (Document Object Model) ----
 
 1. Menurut Mozilla:
